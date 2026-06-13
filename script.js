@@ -1,33 +1,16 @@
 const canciones = [
 
-"canciones/Labios de Cereza 2 T3R Elemento.mp3",
-"canciones/Adoro Bronco.mp3",
-"canciones/Tus Latidos Calibre 50.mp3",
-"canciones/Me interesa Komander.mp3",
-"canciones/10 Razones Para Amarte Martin elias.mp3",
-"canciones/Bésame Luister la voz.mp3",
-"canciones/La nota mas linda.mp3",
-"canciones/Mírame criss y ronny.mp3",
-"canciones/Te amo paulo londra.mp3",
-"canciones/Te regalo amores.mp3",
-"canciones/Te Seguiré zaider.mp3",
-"canciones/Una vida para recordar.mp3"
-
+"Labios de Cereza 2 T3R Elemento.mp3",
+"Adoro Bronco.mp3",
+"10 Razones Para Amarte Martin elias.mp3",
+"Una vida para recordar.mp3"
 ];
 
 const nombresCanciones = [
 
 "Labios de Cereza 2",
 "Adoro",
-"Tus Latidos",
-"Me Interesa",
 "10 Razones Para Amarte",
-"Bésame",
-"La nota mas linda",
-"Mírame",
-"Te amo",
-"Te regalo amores",
-"Te Seguiré",
 "Una vida para recordar"
 ];
 
