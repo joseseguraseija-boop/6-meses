@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>6 Meses Contigo 💞</title>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<!-- ACCESO -->
+
+<div id="login">
+
+<div class="login-box">
+
+<h1>💞 Bienvenida Mi Amor 💞</h1>
+
+<p>Solo quien conoce nuestro secreto puede entrar
+</p>
+
+<input
+type="password"
+id="password"
+placeholder="..........">
+
+<button onclick="verificarClave()">
+Entrar 💞
+</button>
+
+<p id="error"></p>
+
+</div>
+
+</div>
+
+<!-- PAGINA -->
+
+<div id="contenido">
+
+<section class="hero">
+
+<h1>💞 Feliz 6 Meses Mi Amor 💞</h1>
+
+<p>
+Gracias por cada sonrisa, cada llamada y cada momento.
+Estos seis meses han sido de los más hermosos de mi vida.
+</p>
+
+</section>
+
+<!-- CONTADOR -->
+
+<section>
+
+<h2 class="titulo">
+⏳ Nuestro Tiempo Juntos
+</h2>
+
+<div id="contador"></div>
+
+</section>
+
+<!-- ALBUM -->
+
+<section>
+
+<h2 class="titulo">
+📸 Algunas fotos amor
+</h2>
+
+<div class="carrusel">
+
+<img src="fotos/flores.jpeg">
+
+<img src="fotos/mimujer.jpeg">
+
+<img src="fotos/teamo.jpeg">
+
+</div>
+
+</section>
+
+<!-- PRIMERAS VECES -->
+
+<section>
+
+<h2 class="titulo">
+💕 Nuestras Primeras Veces
+</h2>
+
+<div class="timeline">
+
+<div class="evento">
+<h3>💌 Primera conversación</h3>
+<p>Nuestra primera conversacion fue luego de agregarnos en free fire e irnos a hablar por whatsaap y desde ahi empezo nuestra historia. Una historia tan bonita😍.</p>
+</div>
+
+<div class="evento">
+<h3>💞 Primer Te Amo</h3>
+<p>el primer Te amo salio un año despues de conocernos, sincesaramente no me acuerdo quien lo dio, pero seguramente fui yo😘.</p>
+</div>
+
+<div class="evento">
+<h3>🥰 Primera cita</h3>
+<p>nuestra primera cita, ps fue virtual, tuvimos muchas citas en juegos y pronto tendremos nuestra priemra cita en persona y sera muy especial🥰.</p>
+</div>
+
+<div class="evento">
+<h3>🌹 Nuestro inicio</h3>
+<p>13 de diciembre de 2025, dia en el que nos hicimos novios y ahora todos los 13 de cada mes son importantes y especiles, aunque nuestra historia empeiza desde antes nuestro noviazgo oficial empieza desde ese dia, TI AMU MUTO MUTITIMO MI AMOL🥰💞</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- LIBRO -->
+
+<section>
+
+<h2 class="titulo">
+📖 Nuestro Libro
+</h2>
+
+<div class="libro-container">
+
+<button onclick="paginaAnterior()">
+⬅
+</button>
+
+<div id="paginaLibro">
+
+<h3>Capítulo 1</h3>
+
+<p>
+Te conoci un dia de febrero, para ser exactos un 2 de febrero creo, si no estoy mal, estaba juegando free fire y te vi ahi en isla social, te hable y desde entoces nos empezamos hablar todos los dias hasta llegar al punto de enamorarnos y no poder vivir sin nosotros. le agradezco a Dios por haberte puesto en mi camino, y todo lo que pasa es porque Dios lo quiere, y se que no te ha cruzado en mi camino porque si, no me canso de quererte y de quererte, y por eso siempre vas a estar conmigo, hasta el fin. Estoy enamorao tragao de ti mi amor TE AMO MUCHO CAMILA MENDOZA GARCIA MI AMOR, TI AMU MUTO ASHI COMO TE GUTA QUE TE LO DIGA😘🥰💞.
+</p>
+
+</div>
+
+<button onclick="paginaSiguiente()">
+➡
+</button>
+
+</div>
+
+</section>
+
+<!-- FRASES -->
+
+<section>
+
+<h2 class="titulo">
+🌹 Palabras Para Ti
+</h2>
+
+<p id="frase"></p>
+
+</section>
+
+<!-- CARTA -->
+
+<section>
+
+<h2 class="titulo">
+💌 Carta Para Ti
+</h2>
+
+<div class="carta">
+
+<p>
+Amor, gracias por estos seis meses tan especiales.
+Cada día contigo es un regalo que atesoro.
+</p>
+
+<p>
+Te amo más de lo que las palabras pueden explicar.
+</p>
+
+</div>
+
+</section>
+
+<!-- FINAL -->
+
+<section class="final">
+
+<h2>
+✨💞 Te amo hoy, mañana y siempre 💞✨
+</h2>
+
+</section>
+
+<!-- REPRODUCTOR -->
+
+<div class="music-player">
+
+<h3>🎵 Nuestra Música</h3>
+
+<p id="nombreCancion">
+Labios de Cereza 2
+</p>
+
+<div class="controles">
+
+<button onclick="anteriorCancion()">
+⏮
+</button>
+
+<button onclick="playPause()" id="playBtn">
+⏸
+</button>
+
+<button onclick="siguienteCancion()">
+⏭
+</button>
+
+</div>
+
+<input
+type="range"
+id="barra"
+value="0">
+
+</div>
+
+<audio
+id="audio"
+src="canciones/Labios de Cereza 2 T3R Elemento.mp3">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
